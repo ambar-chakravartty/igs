@@ -103,7 +103,7 @@ main{
 }
 
 #o1,#o2,#o3{
-  position: fixed; /* Sit on top of the page content */
+ 	position: fixed;
   display: none; /* Hidden by default */
   width: 100%; /* Full width (cover the whole page) */
   height: 100%; /* Full height (cover the whole page) */
@@ -112,15 +112,19 @@ main{
   right: 0;
   bottom: 0;
   background-color: var(--bg-primary); /* Black background with opacity */
-  z-index: 1; /* Specify a stack order in case you're using a different order for other elements */
+  z-index: 4; /* Specify a stack order in case you're using a different order for other elements */
   cursor: pointer; /* Add a pointer on hover */
   margin-left: 5rem;
   padding: 1rem;
   text-align: center;
+  overflow: scroll;
   
 }
 
-
+ p{
+	margin-left: 7rem;
+	margin-right: 7rem;
+}
 
 #homepage h1{
 	text-align: center;
@@ -131,4 +135,8 @@ main{
 #homepage{
 	width: 100%;
 	z-index: 0;
+}
+
+#o1 img{
+	height: 35%;
 }
