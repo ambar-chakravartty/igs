@@ -2,10 +2,10 @@
 
 html{
 	scroll-behavior: smooth;
-	background-color: #1C1427;
+	background-color: black;
 }
 body{
-	background-color: #1C1427;
+	background-color: black;
 }
 *{
 	box-sizing: border-box;
@@ -17,7 +17,7 @@ body{
 /* page-header styling */
 
 .header{
-	background-color:#1C1427;
+	background-color:black;
 }
 
 .nav-links{
@@ -47,7 +47,7 @@ body{
 .nav-item a{
 	text-decoration: none;
 	transition: all 0.3s ease 0s;
-	color: #7ECA9C;
+	color: #F0A500;
 	font-size: 20px;
 
 
@@ -56,7 +56,7 @@ body{
 .nav-item button{
 	border: 0px;
 	border-radius: 3px;
-	background-color: #7ECA9C;
+	background-color: #F0A500;
 	padding: 8px;
 	transition: all 2s,ease 0.5s;
 	color: black;
@@ -64,7 +64,7 @@ body{
 }
 
 .nav-item button:hover{
-	background-color: #CCFFBD;
+	background-color: #F7D716;
 	
 
 }
@@ -83,18 +83,22 @@ body{
 	padding: 10rem;
 	font-size: xx-large;
 	
-	color: white;
+	color: #F0A500;
 	width: 100%
+}
+
+.landing img{
+	
 }
 
 /**about-div styling**/
 
 .about{
-	width: 50%;
+	width: 70%;
 	margin: auto;
 	margin-bottom: 12.5rem;
-	color: white;
-
+	color: #F0A500;
+	word-wrap: break-word;
 
 	
 }
@@ -108,7 +112,7 @@ body{
 /* events div styling */
 
 .events{
-	background-color:#1C1427;
+	background-color:black;
 	color: black;
 	padding: 0.5rem;
 }
@@ -116,7 +120,7 @@ body{
 .events h1{
 	text-align: center;
 	font-size: 40px;
-	color: white;
+	color: #F0A500;
 
 }
 
@@ -132,7 +136,7 @@ body{
 	padding: 0.5rem;
 	margin-bottom: 1rem;
 
-	background-color: #1C1427;
+	background-color: black;
 	color:#f4f6fc;
 
 	text-align: center;
@@ -141,20 +145,20 @@ body{
 
 
 .event-btn{
-	background-color: #40394A;
+	background-color:#413F42;
 	border-radius: 3px;
 	color:#f4f6fc;
 	border-color: none;
 	border-width: 0;
 	width: 20vw;
 	height:  21vh;
-	padding: 8rem;
+	padding: 5rem;
 	margin-right: 2rem;
 	transition: all 2s , ease 1s;
 }
 
 .event-btn:hover{
-	background-color: #7ECA9C;
+	background-color:#F0A500;
 	color:black;
 }
 
@@ -169,7 +173,8 @@ body{
   background-color: black;
   width: 800px;
   max-width: 80%;
-  color: white;
+  color: #F0A500;
+  border: solid 0.77px #F0A500;
 }
 
 .modal.active {
@@ -182,13 +187,14 @@ body{
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid black;
-  color: white;
+  color:#F0A500;
 }
 
 .modal-header .title {
   font-size: 1.25rem;
   font-weight: bold;
-  color: white;
+  color:#F0A500;
+
 }
 
 .modal-header .close-button {
@@ -198,11 +204,12 @@ body{
   background: none;
   font-size: 2.25rem;
   font-weight: bold;
-  color: white;
+  color: #F0A500;
 }
 
 .modal-body {
-  padding: 30px 35px;
+  padding: 20px 15px;
+  text-align: center;
 }
 
 #overlay {
@@ -220,4 +227,16 @@ body{
 #overlay.active {
   opacity: 1;
   pointer-events: all;
+}
+
+
+.socials img{
+	padding: 5px;
+
+}
+
+.socials{
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }

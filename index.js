@@ -4,21 +4,13 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 
-app.set('view engine','ejs');
-app.set('views', './views');
-app.use(express.static('static'));
+
+app.use(express.static('public'));
 
 app.get('/',(req,res)=>{
-	res.render('home')
+	res.sendFile(path.join(__dirname,'public/html/index.html'))
 });
 
-app.get('/events',(req,res)=>{
-	res.render('events')
-});
-
-app.get('/register',(req,res)=>{
-	res.render('register')
-})
 
 
 app.listen(port,() =>{

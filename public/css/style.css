@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&display=swap');
+
+
+:root{
+	font-size: 20px;
+	font-family: 'Barlow Condensed';
+	--bg-primary: #1c1c1b;
+	--bg-secondary: #0d0d0d;
+	--text : #F0A500;
+
+}
+
+body{
+
+	color: var(--text);
+	background-color: var(--bg-primary);
+	margin: 0;
+	padding: 0;
+	
+
+}
+
+body::-webkit-scrollbar {
+  width: 0.25rem;
+}
+ 
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+  border-radius: 5px;
+}
+
+main{
+	margin-left: 5rem;
+	padding: 1rem;
+}
+
+
+
+.navbar{
+	width: 5rem;
+	height: 100vh;
+	position: fixed;
+	background-color: black;
+	border-right: solid 1px darkgrey;
+	transition: all 200ms ease;
+	opacity: 0.7;
+
+}
+
+.link-text{
+	font-family: 'Barlow Condensed';
+}
+
+.navbar-nav{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 100%;
+	background: var(--bg-primary);
+	}
+
+.nav-item{
+	width: 100%;
+}
+
+
+.nav-link{
+	display: flex;
+	align-items: center;
+	height: 5rem;
+	padding-left: 0.5rem;
+	text-decoration: none;
+	background: var(--bg-primary);
+	color: white;
+	transition: all 200ms ease;
+	border: none;
+	width: 100%;
+}
+
+.nav-link:hover {
+	background: var(--bg-secondary);
+	}
+
+.navbar:hover{
+	width: 7.5rem;
+	z-index: 3;
+
+}
+
+.title-link{
+	text-decoration: none;
+	font-family: 'Barlow Condensed';
+	color: white;
+	font-size: 25px;
+}
+
+#o1,#o2,#o3{
+  position: fixed; /* Sit on top of the page content */
+  display: none; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--bg-primary); /* Black background with opacity */
+  z-index: 1; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
+  margin-left: 5rem;
+  padding: 1rem;
+  text-align: center;
+  
+}
+
+
+
+#homepage h1{
+	text-align: center;
+	font-size: 210px;
+
+}
+
+#homepage{
+	width: 100%;
+	z-index: 0;
+}
