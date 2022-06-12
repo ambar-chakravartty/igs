@@ -10,3 +10,15 @@ function test(name) {
   alert(name);
   // body...
 }
+
+
+
+
+
+
+
+function showMenu(){
+  var navs = document.getElementById('navbar-nav');
+  navs.style.display = "block";
+}
+

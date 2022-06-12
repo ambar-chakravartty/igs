@@ -1,12 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Press+Start+2P&display=swap');
+
 
 
 :root{
 	font-size: 20px;
-	font-family: 'Barlow Condensed';
-	--bg-primary: #1c1c1b;
-	--bg-secondary: #0d0d0d;
-	--text : #F0A500;
+	--bg-primary: #051622;
+	--bg-secondary: #0d568a;
+	--text :#1ba098;
+	--font :'Poiret One'
 
 }
 
@@ -16,6 +17,7 @@ body{
 	background-color: var(--bg-primary);
 	margin: 0;
 	padding: 0;
+	font-family: var(--font);
 	
 
 }
@@ -45,7 +47,7 @@ main{
 	width: 5rem;
 	height: 100vh;
 	position: fixed;
-	background-color: black;
+	background: black;
 	border-right: solid 1px darkgrey;
 	transition: all 200ms ease;
 	z-index: 3;
@@ -54,7 +56,7 @@ main{
 }
 
 .link-text{
-	font-family: 'Barlow Condensed';
+	font-family: var(--font);
 }
 
 .navbar-nav{
@@ -66,10 +68,12 @@ main{
 	align-items: center;
 	height: 100%;
 	background: var(--bg-primary);
+
 	}
 
 .nav-item{
 	width: 100%;
+	
 }
 
 
@@ -98,9 +102,9 @@ main{
 
 .title-link{
 	text-decoration: none;
-	font-family: 'Barlow Condensed';
+	font-family: var(--font);
 	color: white;
-	font-size: 25px;
+	font-size: 22px;
 }
 
 #o1,#o2,#o3{
@@ -125,11 +129,13 @@ main{
  p{
 	margin-left: 7rem;
 	margin-right: 7rem;
+	font-weight: bold;
 }
 
 #homepage h1{
 	text-align: center;
 	font-size: 210px;
+	font-family: var(--font);
 
 }
 
@@ -140,4 +146,42 @@ main{
 
 #o1 img{
 	height: 35%;
+	border: solid 0.5px white;
+	border-radius: 3px;
+	padding: 2px;
 }
+
+#o3{
+
+}
+
+#o3 .events ul{
+	columns: 3;
+	list-style-type: none;
+		margin-left: 8.5rem;
+
+}
+
+#o3 .events ul li{
+	width: 12vw;
+	height:  18vh;
+	border-radius: 3px;
+	margin-bottom: 2rem;
+	padding-top: 1.5rem;
+	background-color:  rgba(27,160,152, 0.5);
+	transition: all 250ms ease;
+
+}
+
+#o3 .events ul li:hover{
+	background-color:  rgba(27,160,152, 0.85);
+	
+}
+
+#o3 .events ul li a{
+	text-decoration: none;
+	color: var(--bg-primary);
+	font-weight: 600;
+
+}
+
