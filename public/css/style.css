@@ -4,9 +4,9 @@
 
 :root{
 	font-size: 20px;
-	--bg-primary: #051622;
-	--bg-secondary: #0d568a;
-	--text :#1ba098;
+	--bg-primary: #222831;
+	--bg-secondary: #393E46;
+	--text :#FFD369;
 	--font :'Poiret One'
 
 }
@@ -177,22 +177,23 @@ main{
 	border-radius: 3px;
 	margin-bottom: 2rem;
 	padding-top: 1.5rem;
-	background-color:  rgba(27,160,152, 0.5);
+	background-color:  rgba(57,62,70);
 	transition: all 250ms ease;
 
 }
 
 #o3 .events ul li:hover{
-	background-color:  rgba(27,160,152, 0.85);
+	background-color:  black;
 	
 }
 
 #o3 .events ul li a{
 	text-decoration: none;
-	color: var(--bg-primary);
+	color: var(--text);
 	font-weight: 600;
 
 }
+
 
 #o4 ul li a img{
 	height: 32px;
