@@ -107,7 +107,16 @@ main{
 	font-size: 22px;
 }
 
-#o1,#o2,#o3{
+.register{
+
+	text-decoration: none;
+	font-family: var(--font);
+	color: white;
+	
+
+}
+
+#o1,#o2,#o3,#o4{
  	position: fixed;
   display: none; /* Hidden by default */
   width: 100%; /* Full width (cover the whole page) */
@@ -185,3 +194,18 @@ main{
 
 }
 
+#o4 ul li a img{
+	height: 32px;
+
+}
+
+#o4 ul{
+	list-style: none;
+	margin-top: 15rem;
+
+}
+
+#o4 ul li {
+	display: inline;
+	padding: 2rem;
+}
