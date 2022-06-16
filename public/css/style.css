@@ -6,207 +6,53 @@
 	font-size: 20px;
 	--bg-primary: #222831;
 	--bg-secondary: #393E46;
-	--text :#FFD369;
+	--text :#FFF;
 	--font :'Poiret One'
 
 }
 
 body{
-
 	color: var(--text);
-	background-color: var(--bg-primary);
-	margin: 0;
-	padding: 0;
-	font-family: var(--font);
-	
-
+	font-family: ;
 }
 
-body::-webkit-scrollbar {
-  width: 0.25rem;
-}
- 
-body::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-}
- 
-body::-webkit-scrollbar-thumb {
-  background-color: darkgrey;
-  outline: 1px solid slategrey;
-  border-radius: 5px;
-}
-
-main{
-	margin-left: 5rem;
-	padding: 1rem;
-}
-
-
-
-.navbar{
-	width: 5rem;
-	height: 100vh;
-	position: fixed;
-	background: black;
-	border-right: solid 1px darkgrey;
-	transition: all 200ms ease;
-	z-index: 3;
-	opacity: 0.85;
-
-}
-
-.link-text{
-	font-family: var(--font);
-}
-
-.navbar-nav{
-	list-style: none;
-	margin: 0;
-	padding: 0;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	height: 100%;
-	background: var(--bg-primary);
-
-	}
-
-.nav-item{
-	width: 100%;
-	
-}
-
-
-.nav-link{
-	display: flex;
-	align-items: center;
-	height: 5rem;
-	padding-left: 0.5rem;
-	text-decoration: none;
-	background: var(--bg-primary);
-	color: white;
-	transition: all 200ms ease;
-	border: none;
-	width: 100%;
-}
-
-.nav-link:hover {
-	background: var(--bg-secondary);
-	}
-
-.navbar:hover{
-	width: 7.5rem;
-	z-index: 3;
-
-}
-
-.title-link{
-	text-decoration: none;
-	font-family: var(--font);
-	color: white;
-	font-size: 22px;
-}
-
-.register{
-
-	text-decoration: none;
-	font-family: var(--font);
-	color: white;
-	
-
-}
-
-#o1,#o2,#o3,#o4{
- 	position: fixed;
-  display: none; /* Hidden by default */
-  width: 100%; /* Full width (cover the whole page) */
-  height: 100%; /* Full height (cover the whole page) */
-  top: 0;
-  left: 0;
+#myVideo {
+  position: fixed;
   right: 0;
   bottom: 0;
-  background-color: var(--bg-primary); /* Black background with opacity */
-  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
-  cursor: pointer; /* Add a pointer on hover */
-  margin-left: 5rem;
-  padding: 1rem;
-  text-align: center;
-  overflow: scroll;
-  
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
 }
 
- p{
-	margin-left: 7rem;
-	margin-right: 7rem;
-	font-weight: bold;
-}
-
-#homepage h1{
-	text-align: center;
-	font-size: 210px;
-	font-family: var(--font);
-
-}
-
-#homepage{
+.navbar{
+	height: 80px;
 	width: 100%;
-	
+	color:var(--text);
+	font-family: var(--font);
 }
 
-#o1 img{
-	height: 35%;
-	border: solid 0.5px white;
-	border-radius: 3px;
-	padding: 2px;
-}
-
-#o3{
-
-}
-
-#o3 .events ul{
-	columns: 3;
-	list-style-type: none;
-		margin-left: 8.5rem;
-
-}
-
-#o3 .events ul li{
-	width: 12vw;
-	height:  18vh;
-	border-radius: 3px;
-	margin-bottom: 2rem;
-	padding-top: 1.5rem;
-	background-color:  rgba(57,62,70);
-	transition: all 250ms ease;
-
-}
-
-#o3 .events ul li:hover{
-	background-color:  black;
-	
-}
-
-#o3 .events ul li a{
-	text-decoration: none;
-	color: var(--text);
-	font-weight: 600;
-
-}
-
-
-#o4 ul li a img{
-	height: 32px;
-
-}
-
-#o4 ul{
+.nav-links{
 	list-style: none;
-	margin-top: 15rem;
+	display: inline;
+	float: right;
+}
+
+.nav-item{
+	display: inline-block;
+	padding-left: 2rem;
+	padding-top: 2rem;
+	text-decoration: none;
+	color:var(--text);
+}
+
+.nav-title{
+	display: inline;
 
 }
 
-#o4 ul li {
-	display: inline;
-	padding: 2rem;
+.nav-heading{
+	display: inline-block;
+	padding-left: 1rem;
+	padding-top: 0.7rem;
 }
