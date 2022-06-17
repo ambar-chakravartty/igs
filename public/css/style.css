@@ -13,7 +13,7 @@
 
 body{
 	color: var(--text);
-	font-family: ;
+	font-family: var(--font);
 }
 
 #myVideo {
@@ -38,12 +38,24 @@ body{
 	float: right;
 }
 
-.nav-item{
+.nav-item {
 	display: inline-block;
 	padding-left: 2rem;
 	padding-top: 2rem;
 	text-decoration: none;
 	color:var(--text);
+}
+
+.nav-click{
+	display: inline-block;
+	padding-left: 2rem;
+	padding-top: 2rem;
+	text-decoration: none !important ;
+	color:var(--text);
+}
+
+.nav-click:hover{
+	color:white !important;
 }
 
 .nav-title{
@@ -55,4 +67,36 @@ body{
 	display: inline-block;
 	padding-left: 1rem;
 	padding-top: 0.7rem;
+}
+
+#about,#banner{
+	padding: 8rem;
+	margin: auto;
+	text-align: center;
+}
+
+.events ul{
+	list-style: none;
+	columns: 3;
+}
+
+.events ul li button{
+	padding: 2rem;
+	margin: 2rem;
+	width: 50vh;
+	height: 50vh;
+	background: rgba(1,1,1,0.5);
+	border: none;
+	border-radius: 3px;
+	color: var(--text);
+}
+
+.modal-content{
+	background: rgba(1, 1, 1, 0.8);
+	border:1px solid white;
+	border-radius: 3px;
+}
+
+.modal-header .close{
+	color: var(--text);
 }

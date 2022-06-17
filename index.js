@@ -12,6 +12,12 @@ app.get('/',(req,res)=>{
 });
 
 
+app.get('/events',(req,res)=>{
+	res.sendFile(path.join(__dirname,'public/html/events.html'))
+});
+
+
+
 
 app.listen(port,() =>{
 	console.log('listening on port : ',port);
