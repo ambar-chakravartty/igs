@@ -100,3 +100,9 @@ body{
 .modal-header .close{
 	color: var(--text);
 }
+
+.modal-body{
+	white-space: pre;
+	word-break: break-word;
+	text-overflow: hidden;
+}
