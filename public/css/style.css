@@ -1,13 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Press+Start+2P&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@300&family=Orbitron:wght@500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@300&family=Orbitron:wght@500&family=Tomorrow&display=swap');
 :root{
 	font-size: 20px;
 	--bg-primary: #222831;
 	--bg-secondary: #393E46;
 	--text :#FFF;
-	--font :'Poiret One'
+	--font :'Tomorrow'
 
 }
 
@@ -74,7 +71,6 @@ body{
 	padding: 3rem;
 	margin: auto;
 	text-align: center;
-	font-family: 'Encode Sans Expanded';
 	font-size: 50px;
 }
 
@@ -106,4 +102,26 @@ body{
 
 .modal-body{
 	white-space: pre;
+}
+
+#contact{
+	text-align: center;
+	margin-top: 30vh;
+}
+
+#contact ul{
+	list-style: none;
+	display: inline;
+
+}
+
+#contact ul li{
+	display: inline-block;
+}
+
+#contact ul li a img{
+	display: inline-block;
+	height: 32px;
+	margin: 3rem;
+
 }
