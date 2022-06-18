@@ -42,6 +42,11 @@ body{
 	padding-top: 2rem;
 	text-decoration: none;
 	color:var(--text);
+	transition: all 500ms ease;
+}
+
+.nav-item:hover{
+	text-decoration-line: underline;
 }
 
 .nav-click{
@@ -50,10 +55,12 @@ body{
 	padding-top: 2rem;
 	text-decoration: none !important ;
 	color:var(--text);
+	transition: all 500ms ease;
 }
 
 .nav-click:hover{
 	color:white !important;
+	text-decoration-line: underline;
 }
 
 .nav-title{
