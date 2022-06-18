@@ -27,8 +27,8 @@
 		<h2 class="nav-heading"><a href="/" style="text-decoration: none !important;color: white !important;">Ingenious</a></h2>
 	</div>
 	<div class="nav-links">
-		<a href="/#about" class="nav-click">About</a>
-		<a href="#" class="nav-click">Events</a>
+		<a href="/about" class="nav-click">About</a>
+		<a href="/events" class="nav-click">Events</a>
 		<a href="#" class="nav-click">Brochure</a>
 		<a href="#" class="nav-click">Contact Us</a>
 		<a href="#" class="nav-click">Registration Forms</a>
@@ -46,9 +46,9 @@
 			<li><button type="button" data-toggle="modal" data-target="#modal6">Sikrypt</button></li>
 			<li><button type="button" data-toggle="modal" data-target="#modal7">Iron Out The Issues</button></li>
 			<li><button type="button" data-toggle="modal" data-target="#modal8">Web Design</button></li>
-			<li><button type="button" data-toggle="modal" data-target="#modal9">BGMI</button></li>
-			<li><button type="button" data-toggle="modal" data-target="#modal10">Valorant</button></li>
-			<li><button type="button" data-toggle="modal" data-target="#modal11">Picture Perfect</button></li>
+			<li><button type="button" data-toggle="modal" data-target="#modal10">BGMI</button></li>
+			<li><button type="button" data-toggle="modal" data-target="#modal11">Valorant</button></li>
+			<li><button type="button" data-toggle="modal" data-target="#picture-perfect">Picture Perfect</button></li>
 			<li><button type="button" data-toggle="modal" data-target="#modal12">Chess</button></li>
 			<li><button type="button" data-toggle="modal" data-target="#modal13">Drama-Logue</button></li>
 			<li><button type="button" data-toggle="modal" data-target="#modal14">Journo's Journey</button></li>
@@ -79,51 +79,43 @@
 
       <!-- Modal body -->
       <div class="modal-body">
-TYPE: Team (One Team per School) 
-NO. OF PARTICIPANTS: 3 per Team 
-MODE: Offline 
-GRADE: 9-12 
-DATE: 28 July, 2022 
-DURATION: 3 Hours (10am - 1pm) 
+TYPE: Team (One Team per School)
+NO. OF PARTICIPANTS: 3 per Team
+MODE: Offline
+GRADE: 9-12
+DATE: 28 July, 2022
+DURATION: 3 Hours (10am - 1pm)
+<ol class="desc">
+<li>Participants will be given the task of making a Robot (ground based, no aerial
+aspect allowed). The Robot will have to navigate a track. The objective is for
+the Robot to complete the track in the least amount of time with the least
+number of mistakes</li>
 
-Description: 
+<li>The Robot would not be controlled by the participants while on track. It must
+have capabilities of an autonomous control to navigate the track without
+continuous human inputs</li>
 
-Participants will be given the task of making
-a Robot (ground based, no aerial aspect allowed). The Robot will have to navigate a track. 
-The objective is for the Robot to complete the track in the least amount of time
- with the least number of mistakes
+<li>The Robot has to be made by the participants of the team themselves before
+arriving for the Competition
+Use of any kind of robotic kits or ready-to-make sets is prohibited and will lead
+to disqualification of the Team</li>
 
+<li>The use of Microcontrollers (for example Arduino) is allowed for autonomous
+control of the Robot. But other High End Boards (like RaspberryPi) and IOT
+based Circuit Boards (like NodeMCU) are not allowed</li>
 
-The Robot would not be controlled by the participants while on track. 
-It must have capabilities of an autonomous control to navigate 
-the track without continuous human inputs
+<li>A DC power supply needs to be used for powering the robot and it should be
+an integral part of the robot.</li>
 
+<li>The chassis of the Robot can be 3D printed, made out of wood, or made out of
+metal but direct use of a fully developed chassis with motors and circuitry for
+making the Robot is prohibited. The basic circuitry of the Robot including
+breadboard/ PCB, motors, sensors, wheel are permitted</li>
 
-The Robot has to be made by the participants of the team themselves 
-before arriving for the Competition
-
-
-Use of any kind of robotic kits or ready-to-make sets is 
-prohibited and will lead to disqualification of the Team
-
-
-The use of Microcontrollers (for example Arduino) is allowed for autonomous
- control of the Robot. But other High End Boards (like RaspberryPi) and 
- IOT based Circuit Boards (like NodeMCU) are not allowed
-
-A DC power supply needs to be used for powering the robot and 
-it should be an integral part of the robot.
-
-
-The chassis of the Robot can be 3D printed, made out of wood, or 
-made out of metal but direct use of a fully developed 
-chassis with motors and circuitry for making the Robot is prohibited. 
-The basic circuitry of the Robot including breadboard/
- PCB, motors, sensors, wheel are permitted
-
-The Participants have to get their own laptop and hardware for
- making any changes to the program and fine tuning the robot at 
- the venue before the competition begins
+<li>The Participants have to get their own laptop and hardware for making any
+changes to the program and fine tuning the robot at the venue before the
+competition begins</li>
+</ol>
       </div>
 
       <!-- Modal footer -->
@@ -136,12 +128,36 @@ The Participants have to get their own laptop and hardware for
 </div>
 
 <div class="modal fade" id="modal2">
-  <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+  <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-xl">
     <div class="modal-content">
 
       <!-- Modal Header -->
       <div class="modal-header">
         <h4 class="modal-title">Get... Set... Make</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="picture-perfect">
+  <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-xl">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Picture Perfect</h4>
         <button type="button" class="close" data-dismiss="modal">&times;</button>
       </div>
 
@@ -159,8 +175,9 @@ The Participants have to get their own laptop and hardware for
   </div>
 </div>
 
+
 <div class="modal fade" id="modal3">
-  <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+  <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-xl">
     <div class="modal-content">
 
       <!-- Modal Header -->
@@ -171,7 +188,33 @@ The Participants have to get their own laptop and hardware for
 
       <!-- Modal body -->
       <div class="modal-body">
-        Modal body..
+TYPE: Team (One Team per School)
+NO. OF PARTICIPANTS: 2 per Team
+MODE: Offline
+GRADE: 9-12
+DATE: 29 July, 2022
+DURATION: 2.5 Hours (9am - 11:30am)
+<ol>
+  <li>Problem-Solving-Oriented Computer Aided Designing Competition.
+Participants will be given a problem or task that is to be taken care of, by a
+machine, a device or a piece of hardware. Participants then have to use a
+Computer Aided Design Software to make a prototype (a 3D design) of that
+device or machine digitally</li>
+
+<li>The problem statement will be given on the spot</li>
+
+<li>Access to the Internet will be made available for Reference and Research
+Purposes</li>
+
+<li>The Design will have to be submitted Online as soon as the duration for the
+designing ends</li>
+
+<li>Students need to bring their Laptops with the required Softwares, already
+installed</li>
+
+<li>Softwares allowed – Blender, FreeCAD, Fusion 360, TinkerCAD (for support, not
+recommended)</li>
+</ol>
       </div>
 
       <!-- Modal footer -->
@@ -184,7 +227,7 @@ The Participants have to get their own laptop and hardware for
 </div>
 
 <div class="modal fade" id="modal4">
-  <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+  <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-xl">
     <div class="modal-content">
 
       <!-- Modal Header -->
@@ -208,7 +251,7 @@ The Participants have to get their own laptop and hardware for
 </div>
 
 <div class="modal fade" id="modal5">
-  <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+  <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-xl">
     <div class="modal-content">
 
       <!-- Modal Header -->
@@ -232,7 +275,7 @@ The Participants have to get their own laptop and hardware for
 </div>
 
 <div class="modal fade" id="modal6">
-  <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+  <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-xl">
     <div class="modal-content">
 
       <!-- Modal Header -->
@@ -256,7 +299,7 @@ The Participants have to get their own laptop and hardware for
 </div>
 
 <div class="modal fade" id="modal7">
-  <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+  <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-xl">
     <div class="modal-content">
 
       <!-- Modal Header -->
@@ -280,7 +323,7 @@ The Participants have to get their own laptop and hardware for
 </div>
 
 <div class="modal fade" id="modal8">
-  <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+  <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-xl">
     <div class="modal-content">
 
       <!-- Modal Header -->
@@ -304,7 +347,7 @@ The Participants have to get their own laptop and hardware for
 </div>
 
 <div class="modal fade" id="modal9">
-  <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+  <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-xl">
     <div class="modal-content">
 
       <!-- Modal Header -->
@@ -328,7 +371,7 @@ The Participants have to get their own laptop and hardware for
 </div>
 
 <div class="modal fade" id="modal10">
-  <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+  <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-xl">
     <div class="modal-content">
 
       <!-- Modal Header -->
@@ -352,7 +395,7 @@ The Participants have to get their own laptop and hardware for
 </div>
 
 <div class="modal fade" id="modal11">
-  <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+  <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-xl">
     <div class="modal-content">
 
       <!-- Modal Header -->
@@ -376,7 +419,7 @@ The Participants have to get their own laptop and hardware for
 </div>
 
 <div class="modal fade" id="modal12">
-  <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+  <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-xl">
     <div class="modal-content">
 
       <!-- Modal Header -->
@@ -400,7 +443,7 @@ The Participants have to get their own laptop and hardware for
 </div>
 
 <div class="modal fade" id="modal13">
-  <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+  <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-xl">
     <div class="modal-content">
 
       <!-- Modal Header -->
@@ -424,7 +467,7 @@ The Participants have to get their own laptop and hardware for
 </div>
 
 <div class="modal fade" id="modal14">
-  <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+  <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-xl">
     <div class="modal-content">
 
       <!-- Modal Header -->
@@ -448,7 +491,7 @@ The Participants have to get their own laptop and hardware for
 </div>
 
 <div class="modal fade" id="modal15">
-  <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+  <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-xl">
     <div class="modal-content">
 
       <!-- Modal Header -->
@@ -472,7 +515,7 @@ The Participants have to get their own laptop and hardware for
 </div>
 
 <div class="modal fade" id="modal16">
-  <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+  <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-xl">
     <div class="modal-content">
 
       <!-- Modal Header -->
@@ -496,7 +539,7 @@ The Participants have to get their own laptop and hardware for
 </div>
 
 <div class="modal fade" id="modal17">
-  <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+  <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-xl">
     <div class="modal-content">
 
       <!-- Modal Header -->
@@ -520,7 +563,7 @@ The Participants have to get their own laptop and hardware for
 </div>
 
 <div class="modal fade" id="modal18">
-  <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+  <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-xl">
     <div class="modal-content">
 
       <!-- Modal Header -->
@@ -544,7 +587,7 @@ The Participants have to get their own laptop and hardware for
 </div>
 
 <div class="modal fade" id="modal19">
-  <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+  <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-xl">
     <div class="modal-content">
 
       <!-- Modal Header -->
@@ -568,7 +611,7 @@ The Participants have to get their own laptop and hardware for
 </div>
 
 <div class="modal fade" id="modal20">
-  <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+  <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-xl">
     <div class="modal-content">
 
       <!-- Modal Header -->
@@ -592,7 +635,7 @@ The Participants have to get their own laptop and hardware for
 </div>
 
 <div class="modal fade" id="modal21">
-  <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+  <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-xl">
     <div class="modal-content">
 
       <!-- Modal Header -->
@@ -616,7 +659,7 @@ The Participants have to get their own laptop and hardware for
 </div>
 
 <div class="modal fade" id="modal22">
-  <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+  <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-xl">
     <div class="modal-content">
 
       <!-- Modal Header -->
@@ -640,7 +683,7 @@ The Participants have to get their own laptop and hardware for
 </div>
 
 <div class="modal fade" id="modal23">
-  <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+  <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-xl">
     <div class="modal-content">
 
       <!-- Modal Header -->
@@ -664,7 +707,7 @@ The Participants have to get their own laptop and hardware for
 </div>
 
 <div class="modal fade" id="modal24">
-  <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+  <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-xl">
     <div class="modal-content">
 
       <!-- Modal Header -->

@@ -16,6 +16,16 @@ app.get('/events',(req,res)=>{
 	res.sendFile(path.join(__dirname,'public/html/events.html'))
 });
 
+app.get('/brochure',(req,res)=>{
+	res.sendFile(path.join(__dirname,'public/html/brochure.html'))
+});
+
+app.get('/about',(req,res)=>{
+	res.sendFile(path.join(__dirname,'public/html/about.html'))
+});
+
+
+
 
 
 

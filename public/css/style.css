@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Press+Start+2P&display=swap');
 
-
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@300&family=Orbitron:wght@500&display=swap');
 
 :root{
 	font-size: 20px;
@@ -10,6 +10,7 @@
 	--font :'Poiret One'
 
 }
+
 
 body{
 	color: var(--text);
@@ -69,10 +70,12 @@ body{
 	padding-top: 0.7rem;
 }
 
-#about,#banner{
-	padding: 8rem;
+#banner{
+	padding: 3rem;
 	margin: auto;
 	text-align: center;
+	font-family: 'Encode Sans Expanded';
+	font-size: 50px;
 }
 
 .events ul{
@@ -103,6 +106,4 @@ body{
 
 .modal-body{
 	white-space: pre;
-	word-break: break-word;
-	text-overflow: hidden;
 }
