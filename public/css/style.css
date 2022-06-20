@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Encode+Sans+Expanded:wght@300&family=Orbitron:wght@500&family=Tomorrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Jura:wght@600&display=swap');
 
 :root{
 	font-size: 20px;
 	--bg-primary: #222831;
 	--bg-secondary: #393E46;
 	--text :#FFF;
-	--font :'Bebas Neue'
+	--font :'Jura'
 
 }
 
@@ -44,26 +44,27 @@ body{
 	text-decoration: none;
 	color:var(--text);
 	transition: all 500ms ease;
-	font-family: 'Bebas Neue';
+	position: relative;
+
 }
 
-.nav-item:hover{
-	text-decoration-line: underline;
+
+.nav-item::after{
+	content: '';
+	display: block;
+	height: 2px;
+	width: 0%;
+	background-color:#FFF;
+	transition: width 200ms ease;
+
 }
 
-.nav-click{
-	display: inline-block;
-	padding-left: 2rem;
-	padding-top: 2rem;
-	text-decoration: none !important ;
-	color:var(--text);
-	transition: all 500ms ease;
+.nav-item:hover::after{
+	width: 100%;
 }
 
-.nav-click:hover{
-	color:white !important;
-	text-decoration-line: underline;
-}
+
+
 
 .nav-title{
 	display: inline;
@@ -93,10 +94,16 @@ body{
 	margin: 2rem;
 	width: 50vh;
 	height: 50vh;
-	background: rgba(1,1,1,0.5);
+	background: rgba(1,1,1);
 	border: none;
 	border-radius: 3px;
 	color: var(--text);
+	transition: all 250ms ease;
+}
+
+.events ul li button:hover{
+	background: #FFF;
+	color: black;
 }
 
 .modal-content{
@@ -111,6 +118,7 @@ body{
 
 .modal-body{
 	white-space: pre;
+	overflow-wrap: break-word;
 }
 
 #contact{
@@ -134,3 +142,4 @@ body{
 	margin: 3rem;
 
 }
+
