@@ -16,8 +16,19 @@
 
 	}
   a:hover{
-    color: white !important;
+    color: white ;
     text-decoration: none;
+  }
+  h2{
+    font-size: 30px;
+    margin-top: 1.5rem;
+  }
+  .nav-links{
+    margin-top: 0;
+  }
+
+  .dropdown-content a:hover{
+    color: black;
   }
 </style>
 <body>
@@ -27,19 +38,26 @@
 </video>
 
 
-	<div class="navbar">
-	<div class="nav-title">
-		<h2 class="nav-heading"><a href="/" style="text-decoration: none !important;color: white !important;">Ingenious</a></h2>
-	</div>
-	<div class="nav-links">
-		<a href="/about" class="nav-item">About</a>
-		<a href="/events" class="nav-item">Events</a>
-		<a href="/brochure" class="nav-item">Brochure</a>
-		<a href="/#contact" class="nav-item">Contact Us</a>
-		<a href="https://docs.google.com/forms/d/e/1FAIpQLSdgxjmUiHVxZuvIQ2ZmHjHcmgsRb5AW8sc9uBKd8LCQdJBIaA/viewform" class="nav-item">Registration Form</a>
-	</div>
+<div class="navbar">
+  <div class="nav-title">
+    <h2 class="nav-heading"><a href="/" style="text-decoration:none;color:white;">Ingenious</a></h2>
+  </div>
+  <div class="nav-links">
+    <a href="/about" class="nav-item " >About</a>
+    <a href="/events" class="nav-item">Events</a>
+    <a href="/brochure" class="nav-item">Brochure</a>
+    <a href="#contact" class="nav-item">Contact Us</a>
+    <div class="dropdown">
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdgxjmUiHVxZuvIQ2ZmHjHcmgsRb5AW8sc9uBKd8LCQdJBIaA/viewform" class="nav-item">Registration Form</a>
+     <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+      <a href="#">Link 4</a>
+    </div>
+  </div>
+  </div>
 </div>
-
 <div class="events">
 	<ul>
 			
