@@ -28,7 +28,9 @@ app.get('/register',(req,res)=>{
 	res.sendFile(path.join(__dirname,'public/html/forms.html'))
 });
 
-
+app.get('/contact',(req,res)=>{
+	res.sendFile(path.join(__dirname,'public/html/contact.html'))
+});
 
 
 
