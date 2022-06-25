@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: Balgin;
-  src: url(Balgin-LightSmExpanded.ttf);
+  src: url(be.ttf);
 }
 
 
@@ -103,10 +103,10 @@ body{
 }
 
 #banner{
-	padding: 3rem;
+	padding-top: 3rem;
 	margin: auto;
 	text-align: center;
-	font-size: 40px;
+	font-size: 65px;
 	font-family: 'Balgin';
 }
 
@@ -175,13 +175,11 @@ body{
 }
 
 
-#banner a{
-	text-decoration: underline;
-	color: white;
+#banner h1{
+	margin-right: 15rem;
+	margin-bottom: 0;
 
 }
-
-
 
 
 .header{
@@ -224,3 +222,10 @@ body{
 	color: white;
 	padding-right: 1.5rem;
 }
+
+.class-2022{
+margin-left: 35rem;
+font-size: 85px;
+margin-top: 0;
+}
+
