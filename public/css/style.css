@@ -116,6 +116,11 @@ body{
 	color: black;
 }
 
+.events h2{
+	text-align: center;
+	margin:  3.5rem 3rem;
+}
+
 .modal-content{
 	background: rgba(1, 1, 1, 0.8);
 	border:1px solid white;
@@ -191,3 +196,27 @@ body{
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+.header{
+	text-align: center;
+	margin: 3rem 2.5rem;
+}
+
+.forms{
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 5rem;
+
+
+}
+
+.forms td{
+	padding: 1rem;
+}
+
+.forms a {
+	text-decoration: none;
+	color: white;
+	padding-right: 1.5rem;
+}
+
