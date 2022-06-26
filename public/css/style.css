@@ -175,11 +175,6 @@ body{
 }
 
 
-#banner h1{
-	margin-right: 15rem;
-	margin-bottom: 0;
-
-}
 
 
 .header{
@@ -221,11 +216,5 @@ body{
 	text-decoration: none;
 	color: white;
 	padding-right: 1.5rem;
-}
-
-.class-2022{
-margin-left: 35rem;
-font-size: 85px;
-margin-top: 0;
 }
 
