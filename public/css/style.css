@@ -288,9 +288,14 @@ body{
 		font-size: 3vw;
 	}
 
+	.events ul li button{
+		width:30vh ;
+		height: 30vh;
+
+	}
+
 	.events ul li{
-		padding: 0;
-		margin: auto;
+		padding-left:2.3rem;
 	}
 
 	.header{
@@ -315,4 +320,7 @@ body{
 		font-size: 3vw;
 	}
 
+	.contactus td{
+		font-size: 2vw;
+	}
 }
