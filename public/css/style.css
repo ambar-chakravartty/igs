@@ -294,12 +294,18 @@ body{
 	}
 
 	.header{
-		font-size: 3vw;
+		font-size:2vw;
+		text-align: center;
+		margin: auto;
+		padding-top: 1rem;
 	}
 
 	.events h2{
 		font-size: 3vw;
+		text-align: center;
+		margin: auto;
 	}
+
 
 	.modal-body{
 		font-size: 3vw;
