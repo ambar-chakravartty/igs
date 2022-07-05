@@ -13,18 +13,23 @@
   <source src="static/website.mp4" type="video/mp4">
 </video>
 
+<button class="mob-button" id="mob-button" aria-controls="nav-links" aria-expanded="false"><span class="sr-only"><img src="css/img.png"></span></button>
+
 <div class="navbar">
 	<div class="nav-title">
 		<h2 class="nav-heading"><a href="/" style="text-decoration:none;color:white;">Ingenious</a></h2>
 	</div>
-	<div class="nav-links">
-		<a href="/about" class="nav-item " >About</a>
+	<div data-visible='false' class="nav-links" id="nav-links">
+		<a href="/about" class="nav-item ">About</a>
 		<a href="/events" class="nav-item">Events</a>
 		<a href="/brochure" class="nav-item">Brochure</a>
 		<a href="/contact" class="nav-item">Contact Us</a>
 		<a href="/register" class="nav-item">Registration Form</a>
 	</div>
+
 </div>
+
+	<script type="text/javascript" src="js/nav.js"></script>
 <h2 style="text-align: center;margin: 3rem;">The Brochure </h2>
 
 <div style="position: relative; width: 50%; height: 0; padding-top: 100%;

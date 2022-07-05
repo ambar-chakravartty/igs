@@ -17,6 +17,10 @@
 
 }
 
+body{
+	overflow-x: hidden;
+}
+
 	a {
 		text-decoration: none;
 
@@ -205,7 +209,10 @@ body{
 	margin-left: auto;
 	
 
+}
 
+.mob-button{
+	display: none;
 }
 
 .contactus td{
@@ -218,3 +225,88 @@ body{
 	padding-right: 1.5rem;
 }
 
+@media (max-width: 768px) {
+	.nav-links{
+		display: flex;
+		flex-direction: column;
+		position: fixed;
+		z-index: 1000;
+		inset: 0 0 0 30%;
+		background: steelblue;
+		padding: min(30vh, 5rem) 2em;
+		background: hsl(0 0% 100% / 0.1);
+		backdrop-filter: blur(1rem);
+
+		transform: translateX(100%);
+		transition: transform 350ms ease-in;
+	}
+
+	.nav-links[data-visible="true"]{
+		transform: translateX(0%);
+	}
+
+	.mob-button{
+		display: block;
+		position: absolute;
+		z-index: 9999;
+		width: 2.5rem;
+		aspect-ratio: 1;
+		margin-left: auto;
+		top: 2rem;
+		right: 2rem;
+		background: transparent;
+		border: none;
+	}
+
+	.mob-button img{
+		width: 32px;
+		height: auto;
+		background: transparent;
+	}
+
+	#banner{
+		font-size: 20px;
+	}
+
+	#contact ul {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+	}
+
+	main{
+		font-size: 3vw;
+	}
+
+	.school-img{
+		width: 55vw;
+	}
+
+	.events ul {
+		columns: 1;
+		font-size: 3vw;
+	}
+
+	.events ul li{
+		padding: 0;
+		margin: auto;
+	}
+
+	.header{
+		font-size: 3vw;
+	}
+
+	.events h2{
+		font-size: 3vw;
+	}
+
+	.modal-body{
+		font-size: 3vw;
+	}
+	
+	.forms td{
+		font-size: 3vw;
+	}
+
+}
