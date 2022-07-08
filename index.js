@@ -32,6 +32,14 @@ app.get('/contact',(req,res)=>{
 	res.sendFile(path.join(__dirname,'public/html/contact.html'))
 });
 
+app.get('/generalrules',(req,res)=>{
+	res.sendFile(path.join(__dirname,'public/html/generalrules.html'))
+});
+
+app.get('/schedule',(req,res)=>{
+	res.sendFile(path.join(__dirname,'public/html/schedule.html'))
+});
+
 
 
 
