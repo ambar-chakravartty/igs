@@ -67,7 +67,7 @@ body{
 
 .nav-item {
 	display: inline-block;
-	margin-right: 2rem;
+	margin-right: 1.5rem;
 	padding-top: 2rem;
 	text-decoration: none;
 	color:var(--text);
@@ -132,8 +132,8 @@ body{
 }
 
 .events ul li button:hover{
-	background: #FFF;
-	color: black;
+	background: black;
+	z-index: 8888;
 }
 
 .events h2{
@@ -223,6 +223,39 @@ body{
 	text-decoration: none;
 	color: white;
 	padding-right: 1.5rem;
+}
+
+.rules  {
+	margin:0 3rem 0 3rem;
+}
+
+.rules li{
+	padding:0.5rem;
+}
+
+.awards{
+	margin-left: 3rem;
+}
+
+.bruh{
+	margin: 0 3rem;
+}
+
+.msgs{
+	padding: 2rem;
+}
+
+.cp-msg ,.cm-msg,.p-msg ,.vp-msg{
+	padding: 2rem;
+
+}
+
+.msgs h2{
+	text-align: center;
+}
+
+.msgs p{
+	text-align: left;
 }
 
 @media (max-width: 768px) {

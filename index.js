@@ -40,6 +40,10 @@ app.get('/schedule',(req,res)=>{
 	res.sendFile(path.join(__dirname,'public/html/schedule.html'))
 });
 
+app.get('/messages',(req,res)=>{
+	res.sendFile(path.join(__dirname,'public/html/messages.html'))
+});
+
 
 
 

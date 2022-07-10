@@ -6,9 +6,11 @@
 	<title>Ingenious - Events</title>
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/tiles.css">
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
 </head>
 <style type="text/css">
   .nav-item{
@@ -33,6 +35,7 @@
   </div>
   <div data-visible='false' class="nav-links" id="nav-links">
     <a href="/about" class="nav-item ">About</a>
+    <a href="/messages" class="nav-item">Messages</a>
     <a href="/generalrules" class="nav-item">General Rules</a>
     <a href="/events" class="nav-item">Events</a>
     <a href="/brochure" class="nav-item">Brochure</a>
@@ -43,52 +46,53 @@
 
 </div>
 
+
   <script type="text/javascript" src="js/nav.js"></script>
 
 
 <div class="header">
   <h1>The Events</h1>
-  <p>&#42For detailed desription of the events, kindly refer to the brochure</p>
+  <p >&#42For detailed desription of the events, kindly refer to the brochure</p>
 </div>
 <div class="events">
   <h2>Group - A (Science, Technology and Engineering)</h2>
 	<ul class="grp-a">			
-			<li><button type="button" data-toggle="modal" data-target="#modal1">The Cybernetic Sprint</button></li>
-			<li><button type="button" data-toggle="modal" data-target="#modal4">Trials of Wisdom</button></li>
-			<li><button type="button" data-toggle="modal" data-target="#modal10">BGMI</button></li>
-			<li><button type="button" data-toggle="modal" data-target="#modal8">Web Design</button></li>
-			<li><button type="button" data-toggle="modal" data-target="#modal2">Get... Set... Make</button></li>
-			<li><button type="button" data-toggle="modal" data-target="#modal5">Game Jam</button></li>
-			<li><button type="button" data-toggle="modal" data-target="#modal11">Valorant</button></li>
-			<li><button type="button" data-toggle="modal" data-target="#picture-perfect">Picture Perfect</button></li>
-			<li><button type="button" data-toggle="modal" data-target="#modal3">C.I.D (Create. Innovate. Design.)</button></li>
-			<li><button type="button" data-toggle="modal" data-target="#modal7">Iron Out The Issues</button></li>
-			<li><button type="button" data-toggle="modal" data-target="#modal6">Sikrypt</button></li>
-			<li><button type="button" data-toggle="modal" data-target="#modal12">Chess</button></li>
+			<li><button type="button" data-toggle="modal" data-target="#modal1" id="t1"><p class="title-card">The Cybernetic Sprint</p></button></li>
+			<li><button type="button" data-toggle="modal" data-target="#modal4" id="t2"><p class="title-card">Trials of Wisdom</p></button></li>
+			<li><button type="button" data-toggle="modal" data-target="#modal10"id="t3"><p class="title-card">BGMI</p></button></li>
+			<li><button type="button" data-toggle="modal" data-target="#modal8" id="t4"><p class="title-card">Web Design</p></button></li>
+			<li><button type="button" data-toggle="modal" data-target="#modal2" id="t5"><p class="title-card">Get... Set... Make</p></button></li>
+			<li><button type="button" data-toggle="modal" data-target="#modal5" id="t6"><p class="title-card">Game Jam</p></button></li>
+			<li><button type="button" data-toggle="modal" data-target="#modal11" id="t7"><p class="title-card">Valorant</p></button></li>
+			<li><button type="button" data-toggle="modal" data-target="#picture-perfect" id="t8"><p class="title-card">Picture Perfect</p></button></li>
+			<li><button type="button" data-toggle="modal" data-target="#modal3" id="t9"><p class="title-card">C.I.D (Create. Innovate. Design.)</p></button></li>
+			<li><button type="button" data-toggle="modal" data-target="#modal7" id="t10"><p class="title-card">Iron Out The Issues</p></button></li>
+			<li><button type="button" data-toggle="modal" data-target="#modal6" id="t11"><p class="title-card">Sikrypt</p></button></li>
+			<li><button type="button" data-toggle="modal" data-target="#modal12" id="t12"><p class="title-card">Chess</p></button></li>
   </ul>
 
   <h2>Group - B (Arts, English and Entrepreneurship)</h2>
   <ul class="grp-b">
-			<li><button type="button" data-toggle="modal" data-target="#modal13">Drama-Logue</button></li>
-			<li><button type="button" data-toggle="modal" data-target="#modal16">Stratagem</button></li>
-			<li><button type="button" data-toggle="modal" data-target="#modal19">Trick of Eyesight</button></li>
-			<li><button type="button" data-toggle="modal" data-target="#modal14">Journo's Journey</button></li>	
-			<li><button type="button" data-toggle="modal" data-target="#modal17">The Ultimate Marketeer</button></li>
-			<li><button type="button" data-toggle="modal" data-target="#modal20">A Musical Amalgamation</button></li>
-		  <li><button type="button" data-toggle="modal" data-target="#modal15">The Prime Time Debate</button></li>
-		  <li><button type="button" data-toggle="modal" data-target="#modal18">Comic Strip</button></li>
-		  <li><button type="button" data-toggle="modal" data-target="#modal21">Nukkad Natak</button></li>
+			<li><button type="button" data-toggle="modal" data-target="#modal13" id="t13"><p class="title-card">Drama-Logue</p></button></li>
+			<li><button type="button" data-toggle="modal" data-target="#modal16" id="t14"><p class="title-card">Stratagem</p></button></li>
+			<li><button type="button" data-toggle="modal" data-target="#modal19" id="t15"><p class="title-card">Trick of Eyesight</p></button></li>
+			<li><button type="button" data-toggle="modal" data-target="#modal14" id="t16"><p class="title-card">Journo's Journey</p></button></li>	
+			<li><button type="button" data-toggle="modal" data-target="#modal17" id="t17"><p class="title-card">The Ultimate Marketeer</p></button></li>
+			<li><button type="button" data-toggle="modal" data-target="#modal20" id="t18"><p class="title-card">A Musical Amalgamation</p></button></li>
+		  <li><button type="button" data-toggle="modal" data-target="#modal15" id="t19"><p class="title-card">The Prime Time Debate</p></button></li>
+		  <li><button type="button" data-toggle="modal" data-target="#modal18" id="t20"><p class="title-card">Comic Strip</p></button></li>
+		  <li><button type="button" data-toggle="modal" data-target="#modal21" id="t21"><p class="title-card">Nukkad Natak</p></button></li>
   </ul>
 
   <h2>Group - C (Mathematics)</h2>
   <ul class="grp-c">
-		  <li><button type="button" data-toggle="modal" data-target="#modal22">Escape Root</button></li>
-		  <li><button type="button" data-toggle="modal" data-target="#modal23">The Great Mathematics Race</button></li>
-		  <li><button type="button" data-toggle="modal" data-target="#modal24">The Divine Proportion</button></li>
+		  <li><button type="button" data-toggle="modal" data-target="#modal22" id="t22"><p class="title-card">Escape Root</p></button></li>
+		  <li><button type="button" data-toggle="modal" data-target="#modal23" id="t23"><p class="title-card">The Great Mathematics Race</p></button></li>
+		  <li><button type="button" data-toggle="modal" data-target="#modal24" id="t24"><p class="title-card">The Divine Proportion</p></button></li>
 		
 	</ul>
 
-
+  <script src="js/tiles.js"></script>
 	<!--Modals-->
 	<div class="modal fade" id="modal1">
   <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
