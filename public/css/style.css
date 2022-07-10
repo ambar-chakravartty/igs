@@ -358,3 +358,62 @@ body{
 	}
 }
 
+  .day1{
+  	display: block;
+    margin-left: 9rem;
+    margin-right: auto;
+  }
+
+  .day2{
+  	display: block;
+    margin-left: 9rem;
+    margin-right: auto;
+  }
+
+  .day3{
+  	display: block;
+    margin-left: 9rem;
+    margin-right: auto;
+  }
+
+  .online{
+  	display: block;
+    margin-left: 9rem;
+    margin-right: auto;
+  }
+  
+  .chairpersonimg{
+  	height: 400px;
+  	width:  400px;
+  	display: block;
+  	margin-left: auto;
+    margin-right: auto;
+
+  }
+
+  .chairmanimg{
+  	height: 400px;
+  	width:  400px;
+  	display: block;
+  	margin-left: auto;
+    margin-right: auto;
+
+  }
+
+  .principalimg{
+  	height: 400px;
+  	width:  400px;
+  	display: block;
+  	margin-left: auto;
+    margin-right: auto;
+
+  }
+
+  .viceprincipalimg{
+  	height: 400px;
+  	width:  400px;
+  	display: block;
+  	margin-left: auto;
+    margin-right: auto;
+
+  }
