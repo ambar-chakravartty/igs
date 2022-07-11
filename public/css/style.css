@@ -329,7 +329,16 @@ body{
 
 	}
 
-	
+	.msgs img{
+		width:50%;
+		aspect-ratio:0.5;
+	}
+
+	.sched img{
+		width: 60vw;
+		margin-left: auto;
+		margin-right: auto;
+	}	
 
 	.header{
 		font-size:2vw;
@@ -356,6 +365,12 @@ body{
 	.contactus td{
 		font-size: 2vw;
 	}
+
+	.msgs{
+		font-size: 3vw;
+	}
+
+
 }
 
   .day1{
@@ -382,38 +397,11 @@ body{
     margin-right: auto;
   }
   
-  .chairpersonimg{
+  .msgs img{
   	height: 400px;
-  	width:  400px;
+  	aspect-ratio: 1;
+  	margin: auto;
   	display: block;
-  	margin-left: auto;
-    margin-right: auto;
-
   }
 
-  .chairmanimg{
-  	height: 400px;
-  	width:  400px;
-  	display: block;
-  	margin-left: auto;
-    margin-right: auto;
-
-  }
-
-  .principalimg{
-  	height: 400px;
-  	width:  400px;
-  	display: block;
-  	margin-left: auto;
-    margin-right: auto;
-
-  }
-
-  .viceprincipalimg{
-  	height: 400px;
-  	width:  400px;
-  	display: block;
-  	margin-left: auto;
-    margin-right: auto;
-
-  }
+ 
