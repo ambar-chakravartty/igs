@@ -284,7 +284,150 @@
 	background-size: 50vh 50.2vh;
 }
 
+@media (max-width: 768px) {
+	#t1{
+	background-image: url('tiles/1.png');
+	background-size: 30vh 30.2vh;
+}
 
 
 
 
+#t2{
+	background-image: url('tiles/4.png');
+	background-size: 30vh 30.2vh;
+}
+
+
+
+#t3{
+	background-image: url('tiles/bgmi.jpg');
+	background-size: 30vh 30.2vh;
+}
+
+
+#t4{
+	background-image: url('tiles/8.png');
+	background-size: 30vh 30.2vh;
+}
+
+#t5{
+	background-image: url('tiles/3.png');
+	background-size: 30vh 30.2vh;
+}
+
+
+#t6{
+	background-image: url('tiles/5.png');
+	background-size: 30vh 30.2vh;
+}
+
+
+#t7{
+	background-image: url('tiles/10.png');
+	background-size: 30vh 30.2vh;
+}
+
+
+#t8{
+	background-image: url('tiles/12.png');
+	background-size: 30vh 30.2vh;
+}
+
+
+#t9{
+	background-image: url('tiles/2.png');
+	background-size: 30vh 30.2vh;
+}
+
+
+#t10{
+	background-image: url('tiles/7.png');
+	background-size: 30vh 30.2vh;
+}
+
+
+#t11{
+	background-image: url('tiles/6.png');
+	background-size: 30vh 30.2vh;
+}
+
+
+#t12{
+	background-image: url('tiles/11.png');
+	background-size: 30vh 30.2vh;
+}
+
+
+#t13{
+	background-image: url('tiles/13.png');
+	background-size: 30vh 30.2vh;
+}
+
+
+#t14{
+	background-image: url('tiles/16.png');
+	background-size: 30vh 30.2vh;
+}
+
+
+#t15{
+	background-image: url('tiles/19.png');
+	background-size: 30vh 30.2vh;
+}
+
+
+#t16{
+	background-image: url('tiles/14.png');
+	background-size: 30vh 30.2vh;
+}
+
+
+#t17{
+	background-image: url('tiles/17.png');
+	background-size: 30vh 30.2vh;
+}
+
+
+#t18{
+	background-image: url('tiles/20.png');
+	background-size: 30vh 30.2vh;
+}
+
+
+#t19{
+	background-image: url('tiles/15.png');
+	background-size: 30vh 30.2vh;
+}
+
+
+#t20{
+	background-image: url('tiles/18.png');
+	background-size: 30vh 30.2vh;
+}
+
+#t21{
+	background-image: url('tiles/21.png');
+	background-size: 30vh 30.2vh;
+}
+
+
+#t22{
+	background-image: url('tiles/22.png');
+	background-size: 30vh 30.2vh;
+}
+
+
+#t23{
+	background-image: url('tiles/23.png');
+	background-size: 30vh 30.2vh;
+}
+
+
+#t24{
+	background-image: url('tiles/24.png');
+	background-size: 30vh 30.2vh;
+}
+
+
+}
